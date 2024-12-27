@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Waves - Interactive Visualization</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 粒子动画全屏容器 -->
+  <div id="particles-container"></div>
+
+  <!-- 顶部文字和控件 -->
+  <div id="app">
+    <h1 class="title">Music Journey</h1>
+
+    <div class="controls-container">
+      <!-- 文件上传控件 -->
+      <div class="control-item">
+        <label for="file-upload">选择 CSV 文件：</label>
+        <input type="file" id="file-upload" accept=".csv" />
+      </div>
+
+      <!-- 年代选择 -->
+      <div class="control-item">
+        <label for="year-select">选择你的年代：</label>
+        <select id="year-select">
+          <!-- 年代选项将由 JavaScript 动态生成 -->
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- 引入Three.js和PapaParse -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

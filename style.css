@@ -1,0 +1,67 @@
+/* 全局样式 */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 防止滚动条 */
+  height: 100%;
+  width: 100%;
+}
+
+/* 粒子动画容器铺满全屏 */
+#particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* 确保动画在最底层 */
+  background-color: black; /* 作为粒子背景 */
+}
+
+/* 应用主容器 */
+#app {
+  position: relative;
+  z-index: 1; /* 保证内容在动画上方 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: white; /* 白色文字显示在动画上更清晰 */
+}
+
+/* 标题样式 */
+.title {
+  font-size: 15rem; /* 更大的标题字体 */
+  margin: 0;
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.8); /* 增加立体感 */
+  line-height: 1.2; /* 调整行高 */
+}
+
+/* 控件容器 */
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem; /* 与标题的距离 */
+  gap: 1.5rem; /* 控件间距更大 */
+}
+
+/* 控件项 */
+.control-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 2.5rem; /* 更大的控件字体 */
+}
+
+/* 文件上传和选择框的样式 */
+#file-upload,
+#year-select {
+  font-size: 2rem; /* 增大控件输入框字体 */
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  border: none;
+}
