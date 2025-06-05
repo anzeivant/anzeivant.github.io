@@ -1,39 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Music Waves - Interactive Visualization</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- 粒子动画全屏容器 -->
-  <div id="particles-container"></div>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>黄俊锜个人主页</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">黄俊锜</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">简介</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">教育经历</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">实习经历</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">作品集</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        黄
+                        <span class="text-primary">俊锜</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        男 · 20 · 浙江大学 · 工业设计 · 15723547100 · 
+                        <a href="mailto:name@email.com"> 3220105955@zju.edu.cn</a>
+                    </div>
+                    <p class="lead mb-5">我是来自浙江大学工业设计专业的大三学生，专注于交互设计与用户体验，擅长用户研究、需求分析与竞品调研。</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://github.com/anzeivant"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">教育经历</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">浙江大学</h3>
+                            <div class="subheading mb-3">本科</div>
+                            <div>工业设计 · 计算机科学与技术学院</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022年9月 - 2026年7月</span></div>
+                    </div>
+                    <p><strong>主修课程：</strong> 商业创新设计、面向对象程序设计、问卷调查方法与实践、设计思维与表达、用户体验与产品创新设计、信息与交互设计技术、信息产品设计、产品形式与方式设计</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">实习经历</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">浙江大学国际设计研究院</h3>
+                            <div class="subheading mb-3">科研助理实习生</div>
+                            <div>人机交互 · 向为实验室</div>
+                            <p><strong>项目简介：</strong> 本项目依托于航空基金，主要研究服务于客机驾驶人员的智能学习环境，设计了基于EMS(电刺激肌肉)和LLM(大语言模型)的客机驾驶能力智能训练系统。该系统读取实时飞行数据，通过LLM和航空技能知识库智能生成飞行建议，并使用EMS直接引导驾驶人员完成所需操作。我们在模拟飞行环境下测试了我们的系统，取得了显著成果。</p>
+                            <p><strong>个人贡献：</strong> 本人主要负责EMS设备的设计与实现，以及设计了LLM与EMS设备间的交互系统。同时本人还参与了EMS设备性能指标的测试与实验，以及EMS刺激人手动作空间的设计与实验。</p>
+                            <p><strong>项目成果：</strong> 本项目已初步结题，在投航空基金下的航空期刊。同时本项目衍生的EMS刺激人手动作空间未来还计划投其它人机交互领域的期刊。</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2025年3月 - 2025年5月</span></div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Project-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">作品集</h2>
 
-  <!-- 顶部文字和控件 -->
-  <div id="app">
-    <h1 class="title">Music Journey</h1>
+                    <!-- 目录 -->
+                    <section id="portfolio">
+                        <h3>目录</h3>
+                        <ul>
+                            <li><a href="#work1">星途 - 偏头痛记录情感化APP设计</a></li>
+                            <li><a href="#work2">及游册用户体验增强设计</a></li>
+                            <li><a href="#work3">炉石炊烟 - 餐厅设计</a></li>
+                            <!-- 可以继续添加 -->
+                        </ul>
+                    </section>
 
-    <div class="controls-container">
-      <!-- 文件上传控件 -->
-      <div class="control-item">
-        <label for="file-upload">选择 CSV 文件：</label>
-        <input type="file" id="file-upload" accept=".csv" />
-      </div>
+                    <!-- 作品1: 星途 -->
+                    <section id="work1" class="mb-5">
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">星途</h3>
+                                <div class="subheading mb-3">偏头痛记录情感化APP设计</div>
+                                <p>本项目通过一款可爱、简约、科技感十足的偏头痛记录APP——星途，提供更好的用户体验。将疼痛特征转化为星球形象，结合动态可视化和结构化输入，帮助用户记录和管理偏头痛。同时，加入社区功能，旨在打破患者的孤独感。</p>
+                                <p>本人主要负责APP交互原型设计和前端界面的开发，以及使用Flutter搭建初步可用的APP原型。</p>
+                                
+                                <!-- 作品图片展示 -->
+                                <div class="mb-3">
+                                    <img src="assets/star_trip/1.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/2.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/3.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/4.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/5.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/6.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/7.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/8.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/9.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/10.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/11.png" alt="星途项目展示" class="img-fluid">
+                                    <img src="assets/star_trip/12.png" alt="星途项目展示" class="img-fluid">
+                                </div>
 
-      <!-- 年代选择 -->
-      <div class="control-item">
-        <label for="year-select">选择你的年代：</label>
-        <select id="year-select">
-          <!-- 年代选项将由 JavaScript 动态生成 -->
-        </select>
-      </div>
-    </div>
-  </div>
+                                <!-- 视频链接 -->
+                                <p><a href="your-video-link" target="_blank" class="btn btn-primary">观看项目视频</a></p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <span class="text-primary">2025年4月 - 2025年6月</span>
+                            </div>
+                        </div>
+                    </section>
 
-  <!-- 引入Three.js和PapaParse -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
-</body>
+                    <!-- 作品2: 及游册用户体验增强设计 -->
+                    <section id="work2" class="mb-5">
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">及游册用户体验增强设计</h3>
+                                <div class="subheading mb-3">用户体验设计</div>
+                                <p>我们与及游册团队合作，通过访谈和数据分析，提出增强引导、改进交互等设计方向，完成了交互稿和界面设计。项目还探索了使用AIGC生成设计内容。</p>
+                                <p>通过该项目，拓宽了我的互联网产品思维，强化了交互设计和界面设计能力。</p>
+                                
+                                <!-- 作品图片展示 -->
+                                <div class="mb-3">
+                                    <img src="assets/jiyouce/1.png" alt="及游册项目展示" class="img-fluid">
+                                    <img src="assets/jiyouce/2.png" alt="及游册项目展示" class="img-fluid">
+                                </div>
+
+                                <!-- 视频链接 -->
+                                <p><a href="your-video-link" target="_blank" class="btn btn-primary">观看项目视频</a></p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <span class="text-primary">2024年11月 - 2024年12月</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- 作品3: 炉石炊烟 -->
+                    <section id="work3" class="mb-5">
+                        <div class="d-flex flex-column flex-md-row justify-content-between">
+                            <div class="flex-grow-1">
+                                <h3 class="mb-0">炉石炊烟</h3>
+                                <div class="subheading mb-3">浙大×网易雷火服务创新设计课程</div>
+                                <p>该项目为《炉石传说》游戏联动主题餐厅设计，旨在提供沉浸式的餐饮体验。餐厅风格紧密围绕游戏世界观，融合游戏元素提升顾客参与感。每道菜品代表一张卡牌，顾客通过不同标签组合触发“组合技”赢取奖励。</p>
+                                <p>本人主要负责餐厅风格设计、动线规划、服务流程设计以及互动体验的设计。</p>
+                                
+                                <!-- 作品图片展示 -->
+                                <div class="mb-3">
+                                    <img src="assets/HEARTHSTONE/1.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/2.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/3.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/4.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/5.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/6.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/7.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/8.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/9.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/10.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/11.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/12.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/13.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/14.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/15.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/16.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/17.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/18.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/19.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/20.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/21.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/22.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/23.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/24.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/25.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/26.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/27.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/28.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/29.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                    <img src="assets/HEARTHSTONE/30.png" alt="炉石炊烟项目展示" class="img-fluid">
+                                </div>
+
+                                <!-- 视频链接 -->
+                                <p><a href="your-video-link" target="_blank" class="btn btn-primary">观看项目视频</a></p>
+                            </div>
+                            <div class="flex-shrink-0">
+                                <span class="text-primary">2025年4月 - 2025年6月</span>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
